@@ -12,8 +12,8 @@ namespace Day29_CensusAnalyzer
         {
             FILE_NOT_FOUND,
             FILE_TYPE_INCORRECT,
-            Wrong_DELIMITER, 
-            Wrong_HEADER
+            WRONG_DELIMITER, 
+            WRONG_HEADER
         }
         public ExceptionType Type;
 
