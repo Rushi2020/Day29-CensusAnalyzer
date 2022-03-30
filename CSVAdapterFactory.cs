@@ -20,7 +20,6 @@ namespace Day29_CensusAnalyzer
                         return new IndianCensusAdapter().LoadCensusData(csvFilePath, dataHeaders);
                     default:
                         throw new CensusAnalyserException("No Such Country", CensusAnalyserException.ExceptionType.NO_SUCH_COUNTRY);
-
                 }
             }
             catch (CensusAnalyserException ex)
