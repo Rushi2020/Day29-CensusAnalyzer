@@ -16,6 +16,14 @@ namespace Day29_CensusAnalyzer.StateCensusTest
         string wrongHeaderFilePath = @"C:\Users\Rushikesh\source\repos\Day29-CensusAnalyzer\StateCensusTest\Resources\WrongIndiaStateCensusData.csv";
 
 
+        string stateCodeHeader = "SrNo,State Name,TIN,StateCode";
+        string stateCodeFilePath = @"C:\Users\Rushikesh\source\repos\Day29-CensusAnalyzer\StateCensusTest\Resources\IndiaStateCode.csv";
+        string wrongStateCodeFilePath = @"C:\Users\Rushikesh\source\repos\Day29-CensusAnalyzer\StateCensusTest\Resources\WrongFileNameIndiaStateCode.csv";
+        string wrongStateCodeTypeFilePath = @"C:\Users\Rushikesh\source\repos\Day29-CensusAnalyzer\StateCensusTest\Resources\IndiaStateCode.txt";
+        string wrongStateCodeDelimiterFilePath = @"C:\Users\Rushikesh\source\repos\Day29-CensusAnalyzer\StateCensusTest\Resources\DelimiterIndiaStateCode.csv";
+        string wrongStateCodeHeaderFilePath = @"C:\Users\Rushikesh\source\repos\Day29-CensusAnalyzer\StateCensusTest\Resources\WrongIndiaStateCode.csv";
+
+
 
         CSVAdapterFactory csvAdapter;
         Dictionary<string, CensusDTO> stateRecords;
